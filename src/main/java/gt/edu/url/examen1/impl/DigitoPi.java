@@ -18,7 +18,9 @@ public class DigitoPi implements Chudnovsky{
 		if(cantidadDigitos == 0) {
 			return 0;
 		}else {
-			return  (Factorial(6*cantidadDigitos)*(545140134*cantidadDigitos+13591409))/(Factorial(3*cantidadDigitos)*Potencia(Factorial(cantidadDigitos),3)*Potencia(-2.625374127E17,cantidadDigitos)) + calcularPi(cantidadDigitos-1);
+			return  (Factorial(6*cantidadDigitos)*(545140134*cantidadDigitos+13591409))/
+				(Factorial(3*cantidadDigitos)*Potencia(Factorial(cantidadDigitos),3)*
+				Potencia(-2.625374127E17,cantidadDigitos)) + calcularPi(cantidadDigitos-1);
 		}
 	}
 	/**
