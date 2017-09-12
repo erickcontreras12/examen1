@@ -4,7 +4,7 @@ import gt.edu.url.examen1.impl.Monstruo;
 
 /**
  *
- * @author Victor Orozco
+ * @author Erick Contreras
  */
 public interface FabricaRanger {
     

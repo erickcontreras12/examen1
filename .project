@@ -26,4 +26,11 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Teoria</name>
+			<type>2</type>
+			<location>C:/Users/Erick Contreras/Desktop/URL/Segundo Ciclo/Progra/Teoria</location>
+		</link>
+	</linkedResources>
 </projectDescription>
